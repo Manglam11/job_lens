@@ -129,10 +129,11 @@ logs/
 # Allow sample data in notebooks for demo purposes
 !notebooks/sample_*.csv
 data/raw/
+!data/raw/.gitkeep
 data/processed/
-models/*.pkl
-models/*.joblib
+!data/processed/.gitkeep
 outputs/
+!outputs/.gitkeep
 
 
 # ------------------------------------------------------------
